@@ -49,10 +49,19 @@ export const gameSlice = createSlice({
       state.currentOperation = newQuestion.Operation;
     },
     stopGame: (state) => {
+      console.log("i am here");
       let result = {
         Score:
-          state.numberOfCorrectAnswers + " out of " + state.numberOfQuestions,
-        Time: state.totalTime - state.timeRemaining,
+          (state.numberOfCorrectAnswers / state.numberOfQuestions).toFixed(2) *
+            100 +
+          " %",
+        Correct: state.numberOfCorrectAnswers,
+        Wrong: state.numberOfWrongAnswers,
+        Not_Answered:
+          state.numberOfQuestions -
+          (state.numberOfCorrectAnswers + state.numberOfWrongAnswers),
+        Elapsed_Time: state.totalTime - state.timeRemaining,
+        Total_Time: state.totalTime,
       };
       state.results.push(result);
       state.gameIsRunning = false;
@@ -93,9 +102,18 @@ export const gameSlice = createSlice({
       if (state.numberOfQuestions === state.currentQuestionNumber) {
         let result = {
           Score:
-            state.numberOfCorrectAnswers + " out of " + state.numberOfQuestions,
-          Time: state.totalTime - state.timeRemaining,
-          StartTime: "30.05.2020 18:50:15",
+            (state.numberOfCorrectAnswers / state.numberOfQuestions).toFixed(
+              2
+            ) *
+              100 +
+            " %",
+          Correct: state.numberOfCorrectAnswers,
+          Wrong: state.numberOfWrongAnswers,
+          Not_Answered:
+            state.numberOfQuestions -
+            (state.numberOfCorrectAnswers + state.numberOfWrongAnswers),
+          Elapsed_Time: state.totalTime - state.timeRemaining,
+          Total_Time: state.totalTime,
         };
         state.results.push(result);
         state.gameIsRunning = false;

@@ -86,7 +86,11 @@ export function StartBoard(props) {
             <thead>
               <tr>
                 <th>Score</th>
-                <th>Time</th>
+                <th>Correct</th>
+                <th>Wrong</th>
+                <th>Not Answered</th>
+                <th>Elapsed Time</th>
+                <th>Total Time</th>
               </tr>
             </thead>
 
@@ -94,7 +98,11 @@ export function StartBoard(props) {
               {results.map((result, index) => (
                 <tr key={index}>
                   <td>{result.Score}</td>
-                  <td>{props.timeToString(result.Time)}</td>
+                  <td>{result.Correct}</td>
+                  <td>{result.Wrong}</td>
+                  <td>{result.Not_Answered}</td>
+                  <td>{props.timeToString(result.Elapsed_Time)}</td>
+                  <td>{props.timeToString(result.Total_Time)}</td>
                 </tr>
               ))}
             </tbody>
