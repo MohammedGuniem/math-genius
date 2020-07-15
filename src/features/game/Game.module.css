@@ -16,15 +16,14 @@
 
 table {
   font-family: arial, sans-serif;
-  border-collapse: collapse;
   width: 100%;
+  font-size: 0.8rem;
 }
 
 td,
 th {
   border: 1px solid rgba(112, 76, 182, 0.1);
-  text-align: left;
-  padding: 8px;
+  padding: 0rem;
 }
 
 tr:nth-child(odd) {
