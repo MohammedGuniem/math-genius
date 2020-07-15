@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/math-genius/static/css/main.7401b0d0.chunk.css",
+    "main.css": "/math-genius/static/css/main.ccb20d5a.chunk.css",
     "main.js": "/math-genius/static/js/main.62cc9ff8.chunk.js",
     "main.js.map": "/math-genius/static/js/main.62cc9ff8.chunk.js.map",
     "runtime-main.js": "/math-genius/static/js/runtime-main.0e350d83.js",
@@ -8,15 +8,15 @@
     "static/js/2.8384a00e.chunk.js": "/math-genius/static/js/2.8384a00e.chunk.js",
     "static/js/2.8384a00e.chunk.js.map": "/math-genius/static/js/2.8384a00e.chunk.js.map",
     "index.html": "/math-genius/index.html",
-    "precache-manifest.737e4b10f2cf74d97322dd67a113b7cf.js": "/math-genius/precache-manifest.737e4b10f2cf74d97322dd67a113b7cf.js",
+    "precache-manifest.b3c803b7c56b97a12d1a3e58bfe82c28.js": "/math-genius/precache-manifest.b3c803b7c56b97a12d1a3e58bfe82c28.js",
     "service-worker.js": "/math-genius/service-worker.js",
-    "static/css/main.7401b0d0.chunk.css.map": "/math-genius/static/css/main.7401b0d0.chunk.css.map",
+    "static/css/main.ccb20d5a.chunk.css.map": "/math-genius/static/css/main.ccb20d5a.chunk.css.map",
     "static/js/2.8384a00e.chunk.js.LICENSE.txt": "/math-genius/static/js/2.8384a00e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0e350d83.js",
     "static/js/2.8384a00e.chunk.js",
-    "static/css/main.7401b0d0.chunk.css",
+    "static/css/main.ccb20d5a.chunk.css",
     "static/js/main.62cc9ff8.chunk.js"
   ]
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "27b1b5ad318dd7503f968c1e483d9252",
+    "revision": "fe1926efe1b1928f370d576a8338fdcb",
     "url": "/math-genius/index.html"
   },
   {
-    "revision": "c59db9dc07b91cc28c2a",
-    "url": "/math-genius/static/css/main.7401b0d0.chunk.css"
+    "revision": "496543aa8f795a8f85d9",
+    "url": "/math-genius/static/css/main.ccb20d5a.chunk.css"
   },
   {
     "revision": "ee7568eb08f93028fd69",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/math-genius/static/js/2.8384a00e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c59db9dc07b91cc28c2a",
+    "revision": "496543aa8f795a8f85d9",
     "url": "/math-genius/static/js/main.62cc9ff8.chunk.js"
   },
   {
